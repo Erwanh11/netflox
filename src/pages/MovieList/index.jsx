@@ -1,22 +1,22 @@
-import Simpson from '../../assets/simpsons.jpeg'
-import OUI from '../../assets/ouioui.jpeg'
-import Furious from '../../assets/fastfurious.jpeg'
 import { useState } from 'react';
+import { movies } from '../../utils/films.jsx'
 
-const movies = [
-    {
-        title: 'Fast and furious',
-        imgUrl: Furious ,
-    },
+// const movies = [
+//     {
+//         title: 'Fast and furious',
+//         imgUrl: Furious ,
+//     },
     
-    {
-        title: 'Simpsons',
-        imgUrl: Simpson,
-    },
-    {
-        title: 'OUI-OUI',
-        imgUrl: OUI ,
-    }];
+//     {
+//         title: 'Simpsons',
+//         imgUrl: Simpson,
+//     },
+//     {
+//         title: 'OUI-OUI',
+//         imgUrl: OUI ,
+//     }];
+
+// export {movies}
 
 function Movies() {
     const [click, setClick] = useState(0);
